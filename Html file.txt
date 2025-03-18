@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajraj Sisodiya - Free Fire Profile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+        body {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .name {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            animation: glow 1.5s infinite alternate;
+        }
+        .guild {
+            font-size: 2rem;
+            color: #ffcc00;
+            margin-top: 10px;
+        }
+        .slogan {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #ff6600;
+        }
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff6600;
+            }
+            100% {
+                text-shadow: 0 0 20px #ff6600, 0 0 40px #ff3300;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name">Gajraj Sisodiya</div>
+        <div class="guild">『KHANSAAR⚔️</div>
+        <div class="slogan">We Fight, We Win, We Rule! 🔥</div>
+    </div>
+</body>
+</html>
